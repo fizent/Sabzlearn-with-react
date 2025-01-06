@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  direction: rtl;
+  box-sizing: border-box;
+}
+
+@layer base {
+  @font-face {
+    font-family: Vazir;
+    src: url("/public/fonts/Vazir-Black.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Vazir Bold";
+    src: url("/public/fonts/Vazir-Bold.ttf") format("truetype");
+  }
+
+}
