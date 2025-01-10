@@ -1,6 +1,6 @@
 export default function AboutCourse({title, subtitle}) {
     return(
-        <div className="flex bg-white p-5 rounded-lg">
+        <div className="flex bg-white p-5 rounded-lg m-5 sm:m-0">
             <img src="/src/assets/react.svg" alt="" />
             <div className="px-3">
                 <h3 className="font-fontVazir text-xl py-3">{title}</h3>

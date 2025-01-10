@@ -1,6 +1,6 @@
 export default function TextBody({title, subtitle, course}) {
     return (
-        <div className="mt-40 mb-20">
+        <div className="m-5 sm:mt-40 mb-20 ">
             <div className="flex justify-between items-center mx-auto max-w-[1260px]">
                 <div className="flex flex-col text-right">
                     <span className="font-fontVazir text-gray-500 text-lg border-b-4 border-green-500 pb-2">{title}</span>

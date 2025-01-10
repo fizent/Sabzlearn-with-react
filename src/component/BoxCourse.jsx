@@ -1,6 +1,6 @@
 export default function BoxCourse({title, subject, teacher, acc, visit, price, img}) {
     return(
-        <div className="bg-white rounded-lg border-b-2 cursor-pointer">
+        <div className="bg-white rounded-lg border-b-2 cursor-pointer m-5 sm:m-0">
             <img src={img} alt={title} className="rounded-lg"/>      
             <h3 className="font-fontVazir text-lg px-5 py-3">{title}</h3>
             <p className="font-fontVazir px-5 py-3 text-gray-500">{subject}</p>
