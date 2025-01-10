@@ -8,21 +8,21 @@ export default function NavBar() {
                     <div>
                         <img src="../assets/react.svg" alt="" />
                         <ul className="flex">
-                            <li className="m-5 font-fontVazir  text-lg text-transparent sm:text-white">
+                            <li className="m-5 font-fontVazir text-lg text-transparent sm:text-white">
                                 <Link to="">دوره های اموزشی</Link>
                             </li>
-                            <li className="m-5 font-fontVazir text-white text-lg text-transparent sm:text-white">
+                            <li className="m-5 font-fontVazir text-lg text-transparent  sm:text-white">
                                 <Link to="">همه دوره ها</Link>
                             </li>
-                            <li className="m-5 font-fontVazir text-white text-lg text-transparent sm:text-white">
+                            <li className="m-5 font-fontVazir text-lg text-transparent  sm:text-white">
                                 <Link to="">مقالات</Link>
                             </li>
-                        </ul>
+                            </ul>
                     </div>
                     <div>
-                        <button className="m-5 font-fontVazir text-white text-lg text-transparent sm:text-white">من</button>
-                        <button className="m-5 font-fontVazir text-white text-lg text-transparent sm:text-white">شاپ</button>
-                        <button className="m-5 font-fontVazir text-white text-lg text-transparent sm:text-white">کیف</button>
+                        <button className="m-5 font-fontVazir  text-lg text-transparent sm:text-white">من</button>
+                        <button className="m-5 font-fontVazir  text-lg text-transparent sm:text-white">شاپ</button>
+                        <button className="m-5 font-fontVazir  text-lg text-transparent sm:text-white">کیف</button>
                     </div>
                 </nav>
                 <div className="h-1/2 justify-center items-center flex flex-col mx-5 sm:m-0">
