@@ -184,7 +184,7 @@ const LimitedShowText = ShowMore ? AboutSabzlearn : AboutSabzlearn.slice(0, 2)
 return (
   <div>
     <NavBar />
-    <div>
+    <section>
       <TextBody 
         title="آخـــرین دوره های ما" 
         subtitle="سکوی پرتاپ شما به سمت موفقیت" 
@@ -205,10 +205,10 @@ return (
       ))}
 
       </div>
-    </div>
+    </section>
     
 
-    <div>
+    <section>
       <TextBody 
         title="نقشه راه" 
         subtitle="نقشه های راه برای شروع اصولی یادگیری" 
@@ -235,9 +235,9 @@ return (
           subtitle="7 دوره"
         />
       </div>
-    </div>
+    </section>
 
-    <div>
+    <section>
       <TextBody
         title="پرطرفدار ترین دوره ها"
         subtitle="دوره های محبوب و پروژه محور سبزلرن"
@@ -256,11 +256,11 @@ return (
           />
       ))}
       </div>
-    </div>
+    </section>
 
 
 
-    <div className="mx-auto max-w-[1260px]">
+    <section className="mx-auto max-w-[1260px]">
       <TextBody
         title="مــا چه کمکی میتونیم بهت بکنیم"
         subtitle="از شروع مسیر کنارتیم نمیذاریم آب تو دلت تکون بخوره"
@@ -288,11 +288,11 @@ return (
           />
         </div>
       </div>
-    </div>
+    </section>
 
 
     
-    <div>
+    <section>
       <TextBody 
         title="محبوب ترین دوره ها" 
         subtitle="پرمخاطب ترین دوره های رایگان سبزلرن" 
@@ -312,9 +312,9 @@ return (
           />        
         ))}
       </div>
-    </div>
+    </section>
 
-    <div className="m-5 sm:mx-auto max-w-[1260px] mt-40 mb-20">
+    <section className="m-5 sm:mx-auto max-w-[1260px] mt-40 mb-20">
       <div>
         <h2 className="font-fontVazir text-3xl py-3 sm:text-4xl">با دوره‌های <span className="text-green-500">سبزلرن</span> برنامه‌نویس حرفه‌ای شوید!</h2>
         <p className="font-fontVazir text-gray-500">اگر در ابتدای مسیر یادگیری برنامه‌نویسی قرار دارید یا بعد از چند سال فعالیت حرفه‌ای به‌عنوان برنامه‌نویس به‌دنبال فتح قله‌های جدید در این حوزه هستید، دوره‌های سبزلرن شما را به هدفتان می‌رسانند. در این آکادمی همه چیز برای یادگیری برنامه‌نویسی از صفر یا دریافت آموزش‌های تکمیلی برای تبدیل شدن به یک برنامه‌نویس کاربلد مهیا است. در سبزلرن دوره‌های آموزشی متنوع با کمترین هزینه و پشتیبانی مستمر آماده شده تا بدون نیاز به کتاب یا دوره دیگر، بتوانید صفر تا صد برنامه‌نویسی را یاد بگیرید. تجربه‌های دانشجویان قبلی نشان می‌دهد که سبک تدریس اساتید مجرب سبزلرن نه تنها آموزش‌های استاندارد را با پروژه‌های واقعی ترکیب می‌کند، بلکه به دانشجویان انگیزه و اعتمادبه‌نفس لازم برای ادامه مسیر برنامه‌نویسی را می‌دهد. سبزلرن با تمرکز بر آموزش‌های منطبق با نیازهای بازار کار ایران و استفاده از روش‌های تدریس بومی‌سازی‌شده، تضمین می‌کند که نه تنها مطالب به‌روز و حرفه‌ای را یاد بگیرید، بلکه با آمادگی کامل وارد بازار کار شوید.</p>
@@ -329,7 +329,7 @@ return (
       <div className="flex justify-center px-4 py-2">
           <button className="font-fontVazir text-green-500 rounded-lg border-2 border-green-500 px-4 py-2" onClick={() => setShowMore(!ShowMore)}>{!ShowMore ? "مشاهده بیشتر" : "مشاهده کمتر"}</button>
       </div>
-    </div>
+    </section>
 
 
     <Footer></Footer>
